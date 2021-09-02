@@ -18,6 +18,7 @@ $ python rightmoveAlert.py
 4. Minimise the terminal window if you like and ensure your volume is unmutted
 5. Get notifications when a new property is added to rightmove and contact the agent fast before the viewings are gone ;)
 
+<br>
 
-
+Link to repo: https://github.com/mattbolster/rightmoveAlert
 
