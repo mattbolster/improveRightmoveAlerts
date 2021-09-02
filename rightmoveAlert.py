@@ -37,14 +37,12 @@ url = input("Please enter the URL of your rightmove.co.uk search: ")
 while True:
     response = getURL(url)
     numOfPropertiesBefore = getElement(response)
-    print(numOfPropertiesBefore)
     
     #wait for 2 mins to check if the number of properties has changed
     time.sleep(120)
 
     response = getURL(url)
     numOfPropertiesAfter = getElement(response)
-    print(numOfPropertiesAfter)
 
     if (numOfPropertiesBefore == numOfPropertiesAfter):
         continue
@@ -52,7 +50,7 @@ while True:
     else:
         # notify
         for x in range(3):
-            os.system('say new property alert')
+            os.system('say new property alert, check Right move.')
 
         
         # wait for 30 seconds
