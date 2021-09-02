@@ -9,7 +9,11 @@ Basic knowledge of Terminal commands is assumed.
 
 ## Setup:
 1. In Terminal, navigate to the directory in which the file was downloaded.
-2. Run the script using the command: python rightmoveAlert.py
+2. Run the script using the command: 
+```
+$ python rightmoveAlert.py
+```
+
 3. Follow the on screen prompt and paste in the URL from your rightmove.co.uk property search
 4. Minimise the terminal window if you like and ensure your volume is unmutted
 5. Get notifications when a new property is added to rightmove and contact the agent fast before the viewings are gone ;)
