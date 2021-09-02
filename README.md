@@ -1,4 +1,4 @@
-# improveRightmoveAlerts
+# rightmoveAlert
 A near-instantaneous alert system for MacOS to use with rightmove.co.uk when searching for new listings.
 
 ## General info
