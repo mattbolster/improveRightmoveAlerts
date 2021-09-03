@@ -26,8 +26,8 @@ def getElement(response):
     soup = BeautifulSoup(response, 'html.parser')
     # select the span element we are looking for on rightmove's website
     content = soup.find('span', {"class": "searchHeader-resultCount"})
-    # get the text value of the numOfProperties
-    numOfProperties = content.get_text()
+    # get the text value of the numOfProperties and store as an integer 
+    numOfProperties = int(content.get_text())
     return numOfProperties
 
 
@@ -44,7 +44,7 @@ while True:
     response = getURL(url)
     numOfPropertiesAfter = getElement(response)
 
-    if (numOfPropertiesBefore == numOfPropertiesAfter):
+    if (numOfPropertiesBefore >= numOfPropertiesAfter):
         continue
 
     else:
