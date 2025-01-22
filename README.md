@@ -16,7 +16,7 @@ $ python rightmoveAlert.py
 
 3. Follow the on screen prompt and paste in the URL from your rightmove.co.uk property search
 4. Minimise the terminal window if you like and ensure your volume is unmutted
-5. Get notifications when a new property is added to rightmove and contact the agent fast before the viewings are gone ;)
+5. Get notifications when a new property is added to rightmove and contact the agent fast before the viewings are gone
 
 <br>
 
